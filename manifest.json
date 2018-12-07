@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "preservica_view_switch",
+  "version": "1.0",
+  "description": "Switch between browse view",
+  "homepage_url": "https://github.com/decirella/preservica_view_switch",
+  "icons": {
+    "48": "icons/preservica_48.png"
+  },
+
+  "permissions": [
+    "alarms",
+    "tabs"
+  ],
+
+  "page_action": {
+    "default_icon": "icons/preservica_32.png",
+    "default_title": "Switch View"
+  },
+
+  "background": {
+    "scripts": [
+        "browser-polyfill.js",        
+        "background.js"]
+  }
+
+}
