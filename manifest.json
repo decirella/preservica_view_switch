@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "preservica_view_switch",
   "version": "1.0",
-  "description": "Switch between browse view",
+  "description": "Switch between browse view and properties view in Preservica SDB",
   "homepage_url": "https://github.com/decirella/preservica_view_switch",
   "icons": {
     "48": "icons/preservica_48.png"
